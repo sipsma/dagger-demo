@@ -1,0 +1,11 @@
+{
+  "name": "demo-server",
+  "version": "1.0.0",
+  "description": "demo for dagger",
+  "main": "src/index.js",
+  "author": "Erik Sipsma",
+  "license": "MIT",
+  "scripts": {
+    "test": "echo SERVER TEST"
+  }
+}
