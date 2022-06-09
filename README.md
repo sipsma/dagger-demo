@@ -2,8 +2,7 @@
 This is a demo of using [Dagger](https://docs.dagger.io/1235/what) to implement the following CI/CD DAG:
 ![A DAG of a CI/CD pipeline. There are two root vertices for the client and server source code. There are vertices for building the client app and the server, each with a dependency on their respective source vertex. Similarly, there are two vertices for client and server unit tests, each also with a dependency on their respective source vertex. There is a single vertex for running integration tests, which has dependencies on both of the build vertices for the client and the server. Finally, there are two vertices for releasing the client app and deploying the server. These vertices both have a dependency on the integration test vertex in addition to dependencies on their respective unit test and build vertices.](https://github.com/sipsma/dagger-demo/blob/main/cicd_dag.png?raw=true)
 
-More context can be found in my PlatformCon 2022 talk
-* TODO: link to the talk once released.
+More context can be found in my [PlatformCon 2022 talk](https://www.youtube.com/watch?v=yRhb-Wk5ov4).
 
 To summarize here:
 
